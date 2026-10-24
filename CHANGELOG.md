@@ -1,5 +1,8 @@
 # PolyWriter changelog
 
+## 0.1.1
+- New PolyWriter logo in the application, Windows shortcuts, document icons and installer.
+
 ## 0.1.0
 - Write and format local documents with fonts, paragraph spacing, alignment and simple lists.
 - Save PolyWriter documents; import text and supported RTF content, and export TXT or RTF copies.
