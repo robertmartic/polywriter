@@ -1,0 +1,19 @@
+# PolyWriter updates
+
+Installed copies check at startup (optional in Settings). Use About > Updates
+or Settings > Check for updates to check manually. Update available opens release notes.
+Update now downloads the package inside PolyWriter, verifies its SHA-256 and
+prepares a separate helper. Unsaved work must be saved or explicitly discarded
+before restart; Cancel keeps your work open. Cancellation or failed verification
+does not replace the installed version.
+
+The helper checks the registered installation, waits for all PolyWriter windows
+to close, stages and verifies the new files, preserves unrelated files and then
+replaces the application. A maintenance failure rolls back to the previous folder.
+Backups are retained; About > Updates > Manage update storage supports safe cleanup.
+After a successful restart, the offline changelog is shown. Failed updates are reported.
+
+The configured public distribution channel is robertmartic/polywriter on GitHub.
+Until its first release has been published, GitHub may report no available release.
+No private repository credentials are used by the application. Downloads contain
+binary packages, customer documentation and notices, never source or debug symbols.

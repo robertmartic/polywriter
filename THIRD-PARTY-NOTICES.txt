@@ -1,0 +1,13 @@
+PolyWriter uses Microsoft .NET and WPF. Self-contained packages include
+the .NET runtime license and notices in licenses/dotnet/.
+
+Theme, dialogs, update engine, installer and packaging portions are adapted
+from PolyPDF with permission of its owner. Earlier MIT-covered portions
+retain those permissions; the original notice is preserved in
+licenses/POLYPDF-MIT-LEGACY.txt. No earlier grant is revoked.
+
+Windows installer: NSIS 3.13, unmodified zlib stub and standard plugins.
+See licenses/nsis/COPYING.txt for notices.
+
+Windows fonts and printing services are used locally. No fonts, PDFium,
+Office components or paid editing SDKs are bundled.
