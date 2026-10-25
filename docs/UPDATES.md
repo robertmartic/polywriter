@@ -17,3 +17,7 @@ The configured public distribution channel is robertmartic/polywriter on GitHub.
 Until its first release has been published, GitHub may report no available release.
 No private repository credentials are used by the application. Downloads contain
 binary packages, customer documentation and notices, never source or debug symbols.
+
+## Optional PolyHUB integration
+
+This release supports the local PolyHUB protocol for coordinated updates. PolyHUB requests the existing application updater; download controls, save prompts, deltas/full fallback and rollback remain in this application. It also verifies the installed result. The app remains fully usable without PolyHUB. Setup, uninstall and update helpers coordinate maintenance to avoid concurrent changes.

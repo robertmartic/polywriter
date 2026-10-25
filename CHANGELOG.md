@@ -1,5 +1,12 @@
 # PolyWriter changelog
 
+## 0.1.2
+
+- Added optional PolyHUB integration for coordinated updates while preserving application save prompts.
+- Coordinated setup, uninstall and update locking.
+
+# PolyWriter changelog
+
 ## 0.1.1
 - New PolyWriter logo in the application, Windows shortcuts, document icons and installer.
 
