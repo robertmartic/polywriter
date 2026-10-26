@@ -1,6 +1,6 @@
 # Installing PolyWriter
 
-Use PolyWriter-0.2.0-setup.exe for a per-user installation, optional desktop and
+Use PolyWriter-0.2.1-setup.exe for a per-user installation, optional desktop and
 Start menu shortcuts, Open with registration for .polyw and a conventional uninstaller.
 No administrator rights or separate .NET installation are required.
 Close all PolyWriter windows before installing. Existing folders and shortcut

@@ -1,5 +1,8 @@
 # PolyWriter changelog
 
+## 0.2.1
+- Fixed missing page margins when starting the application with a blank document. The caret and typed text now start at the same position as documents created with New.
+
 ## 0.2.0
 - Find and replace text with match-case and whole-word options; undo Replace all in one step.
 - Apply Normal, Heading 1 and Heading 2 paragraph presets.
