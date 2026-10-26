@@ -1,5 +1,11 @@
 # PolyWriter changelog
 
+## 0.2.2
+- Compact vector icons for file, clipboard, formatting, alignment, list and navigation tools, with descriptive tooltips and accessible names.
+- Organised Home tools into Clipboard, Font and Paragraph groups, with visible active formatting and alignment states.
+- Added a More menu for groups that do not fit the available toolbar width.
+- Fixed saving newly created bulleted and numbered lists with automatic paragraph spacing.
+
 ## 0.2.1
 - Fixed missing page margins when starting the application with a blank document. The caret and typed text now start at the same position as documents created with New.
 

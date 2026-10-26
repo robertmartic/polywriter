@@ -3,7 +3,7 @@
 [Download PolyWriter for Windows](https://github.com/robertmartic/polywriter/releases/latest).
 Choose the `-setup.exe` asset for a conventional installation, or the `-win-x64.zip` portable package.
 
-Version 0.2.1. A local document workspace for 64-bit Windows 10 (2004+) and Windows 11.
+Version 0.2.2. A local document workspace for 64-bit Windows 10 (2004+) and Windows 11.
 Free to use. English interface, light and dark themes, no account or subscription.
 
 Create and format everyday documents, find/replace text, preview pages and print.
@@ -11,6 +11,10 @@ Documents use the versioned .polyw format. TXT and basic RTF can be imported;
 imports are copies and their originals are preserved. Export TXT or RTF from View.
 Paste inserts plain text. DOCX is not supported in this version. Editing is continuous;
 Print preview is paginated. Choose View > Write to leave preview.
+
+The compact toolbar uses vector icons with descriptive tooltips. Home groups
+Clipboard, Font and Paragraph tools; active formatting is highlighted. When a
+group cannot fit, open More to access it. Font, size and style keep visible values.
 
 Use Layout > Page setup for paper and margins. For PDF output choose Print,
 then Microsoft Print to PDF if installed. This is not a built-in PDF export engine.
