@@ -1,5 +1,8 @@
 # PolyWriter changelog
 
+## 0.2.3
+- Fixed hard-to-read tooltips in the dark theme. Tooltip text, background and border now follow the active application theme, including when switching themes.
+
 ## 0.2.2
 - Compact vector icons for file, clipboard, formatting, alignment, list and navigation tools, with descriptive tooltips and accessible names.
 - Organised Home tools into Clipboard, Font and Paragraph groups, with visible active formatting and alignment states.
