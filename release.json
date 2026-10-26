@@ -1,6 +1,31 @@
 {
-  "SourceRepository": "robertmartic/polywriter-source",
-  "SourceRevision": "328e25cff97629f511eb8a778fae29c914394f5b",
-  "DistributionRepository": "robertmartic/polywriter",
-  "Version": "0.1.2"
+  "Version": "0.2.0",
+  "SourceRevision": "08300faed4072741bd97b4472efacaa1ea3c1556",
+  "Assets": [
+    {
+      "name": "PolyWriter-0.2.0-setup.exe",
+      "bytes": 70387539,
+      "sha256": "7b858b142b8349419d53cae7e843a43401f36503c0b1fdc6ce7fde2d0b1c6f49"
+    },
+    {
+      "name": "PolyWriter-0.2.0-maintenance.exe",
+      "bytes": 458293,
+      "sha256": "d79231d78a98a60c88a435437a62da3425ecc59ba2a401c54fd05c6db7b5462d"
+    },
+    {
+      "name": "PolyWriter-0.2.0-win-x64.zip",
+      "bytes": 73613741,
+      "sha256": "b35f582b422095fc75bc749a05bff3ff63da95d37eadf069c954343c767ebed3"
+    },
+    {
+      "name": "PolyWriter-0.2.0-manifest.json",
+      "bytes": 70922,
+      "sha256": "6b6322dfd6c54b766db3b350984a35ecf5f6b20e0a098e61dafde79df0fc7453"
+    },
+    {
+      "name": "PolyWriter-0.1.2-to-0.2.0-delta.zip",
+      "bytes": 62695975,
+      "sha256": "1cae0e50848137e4794ec287ffa7c0a45f57432f17bc9b9bf8b1644aaff5794e"
+    }
+  ]
 }

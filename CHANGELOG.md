@@ -1,11 +1,19 @@
 # PolyWriter changelog
 
+## 0.2.0
+- Find and replace text with match-case and whole-word options; undo Replace all in one step.
+- Apply Normal, Heading 1 and Heading 2 paragraph presets.
+- See word counts for the document and selected text.
+- Set precise font sizes and paragraph spacing in points, with decimal values and mixed-format support.
+- Continue opening and saving existing PolyWriter documents in the same file format.
+- Fixed paginated print preview and returning to writing when finding or replacing text.
+
 ## 0.1.2
 
 - Added optional PolyHUB integration for coordinated updates while preserving application save prompts.
 - Coordinated setup, uninstall and update locking.
 
-# PolyWriter changelog
+
 
 ## 0.1.1
 - New PolyWriter logo in the application, Windows shortcuts, document icons and installer.
