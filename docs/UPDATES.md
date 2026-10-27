@@ -4,7 +4,7 @@ Installed copies check at startup (optional in Settings). Use About > Updates
 or Settings > Check for updates to check manually. Update available opens release notes.
 Update now downloads the package inside PolyWriter, verifies its SHA-256 and
 prepares a separate helper. Unsaved work must be saved or explicitly discarded
-before restart; Cancel keeps your work open. Cancellation or failed verification
+before restart. Every unsaved tab is checked; Cancel keeps all documents open. Cancellation or failed verification
 does not replace the installed version.
 
 The helper checks the registered installation, waits for all PolyWriter windows

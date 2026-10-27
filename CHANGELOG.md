@@ -1,5 +1,13 @@
 # PolyWriter changelog
 
+## 0.3.0
+- Work with multiple documents in tabs. New and Open preserve other documents and their undo history, selection and paper settings.
+- Open several files at once and return to an existing tab when opening the same file again.
+- Access up to 20 recent documents from Recent, or clear the local history without deleting files.
+- Keep separate unsaved-change indicators and encrypted recovery checkpoints for every document, including inactive tabs.
+- Recover interrupted work into separate unsaved tabs. Closing the window or applying an update checks every document first.
+- Close a tab with Ctrl+W and switch tabs with Ctrl+Tab or Ctrl+Shift+Tab. Closing the last tab opens a fresh document.
+
 ## 0.2.3
 - Fixed hard-to-read tooltips in the dark theme. Tooltip text, background and border now follow the active application theme, including when switching themes.
 

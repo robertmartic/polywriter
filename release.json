@@ -1,31 +1,31 @@
 {
-  "Version": "0.2.3",
-  "SourceRevision": "978bc75a9b367ce96ba85747896dac7981e6b3f6",
+  "Version": "0.3.0",
+  "SourceRevision": "0e7f139e218f894ae4df8f8c9a2ca15a311726f2",
   "Assets": [
     {
-      "name": "PolyWriter-0.2.3-setup.exe",
-      "bytes": 70403195,
-      "sha256": "f3c48e20fc4e21b38c3518896c88ddd9cf40d72d72d3edd1417b73a02aff94dd"
+      "name": "PolyWriter-0.3.0-setup.exe",
+      "bytes": 70418225,
+      "sha256": "52758b85b1849c891bb55b9da2ff317332018f57aef7ab7f5c4dda20021230e7"
     },
     {
-      "name": "PolyWriter-0.2.3-maintenance.exe",
+      "name": "PolyWriter-0.3.0-maintenance.exe",
       "bytes": 458294,
-      "sha256": "e5cdd2a09a3bc51a1263d3d509e0542b3e50d6f28561d2b7933ca40a1abed316"
+      "sha256": "14e24333d7486263e9d29833c9ac92e88f97c147eadc6cb5a6f2a68a0349db6b"
     },
     {
-      "name": "PolyWriter-0.2.3-win-x64.zip",
-      "bytes": 73623229,
-      "sha256": "4ec81a36f899684e928a6a7ad43112c8e725c4b727ad6172b2331f3c8aeeb518"
+      "name": "PolyWriter-0.3.0-win-x64.zip",
+      "bytes": 73632800,
+      "sha256": "ef458b14ad6aa87e87b6422db62586eca7f76fcce118c909426b49104f4bd571"
     },
     {
-      "name": "PolyWriter-0.2.3-manifest.json",
+      "name": "PolyWriter-0.3.0-manifest.json",
       "bytes": 70922,
-      "sha256": "56a34c7fe046e3a72ee9b5219cb6e2d00a2ed62d3a24faedb8a2814979869442"
+      "sha256": "debfe774f23238c621b643af32738c1ecc3c46dcc70a36f4851b8ffc265059dd"
     },
     {
-      "name": "PolyWriter-0.2.2-to-0.2.3-delta.zip",
-      "bytes": 1861618,
-      "sha256": "392cb3df02c7ccdf7c5dc079283723170d6874b258619bf53d77db7cbb8d27e7"
+      "name": "PolyWriter-0.2.3-to-0.3.0-delta.zip",
+      "bytes": 1872152,
+      "sha256": "8b1f8c23849a3f7c8115be63f378e3821a8fcf388209f6cd7ce4835376005ac5"
     }
   ]
 }

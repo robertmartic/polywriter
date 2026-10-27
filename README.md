@@ -3,7 +3,7 @@
 [Download PolyWriter for Windows](https://github.com/robertmartic/polywriter/releases/latest).
 Choose the `-setup.exe` asset for a conventional installation, or the `-win-x64.zip` portable package.
 
-Version 0.2.3. A local document workspace for 64-bit Windows 10 (2004+) and Windows 11.
+Version 0.3.0. A local document workspace for 64-bit Windows 10 (2004+) and Windows 11.
 Free to use. English interface, light and dark themes, no account or subscription.
 
 Create and format everyday documents, find/replace text, preview pages and print.
@@ -39,6 +39,23 @@ editor's minimum line-height baseline; larger fonts may increase actual line hei
 The status bar shows document words and the number of words in a text selection.
 
 Keyboard: Ctrl+N, Ctrl+O, Ctrl+S, Ctrl+Shift+S, Ctrl+P, Ctrl+F, Ctrl+H,
-Ctrl+Z/Y, Ctrl+B/I/U, Ctrl+X/C/V. Open another application window for another document.
+Ctrl+Z/Y, Ctrl+B/I/U, Ctrl+X/C/V. Ctrl+W closes the active tab; Ctrl+Tab and
+Ctrl+Shift+Tab switch documents.
+
+Version 0.3 adds document tabs. New and Open keep other documents open, with
+independent formatting, paper, selection, undo history, zoom and unsaved indicators.
+Open can select several files. Opening a file already in this window selects its
+tab. Closing the window or preparing to apply an update checks all unsaved tabs;
+Cancel keeps the window open. Closing the final tab creates a fresh document.
+
+Recent lists up to 20 successfully opened or saved paths on this PC. Use Clear
+recent list to remove the history without deleting documents. Missing files can
+be moved or unavailable; opening one does not erase any open work.
+
+Each dirty tab has its own encrypted recovery checkpoint, including inactive tabs.
+After an interrupted session, accepted recovery copies open in separate unsaved
+tabs. Save them explicitly. This is crash recovery, not automatic reopening of a
+cleanly closed session. Print, preview, Find/Replace and export apply to the active
+document; switching tabs returns to writing. The .polyw format remains version 1.
 
 See docs/INSTALLATION.md and docs/UPDATES.md. Licenses are included in the package.
