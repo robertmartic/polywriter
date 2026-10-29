@@ -1,5 +1,10 @@
 # PolyWriter changelog
 
+## 0.3.1
+- Updates now use PolyStudio's signed update channel and verified downloads, with the same in-app download, retry and rollback experience.
+- Automatic checks run at most once every 24–30 hours. Manual checks remain available immediately.
+- This is the final GitHub bridge update for older installations; subsequent updates are delivered through PolyStudio.
+
 ## 0.3.0
 - Work with multiple documents in tabs. New and Open preserve other documents and their undo history, selection and paper settings.
 - Open several files at once and return to an existing tab when opening the same file again.

@@ -2,8 +2,11 @@
 
 [Download PolyWriter for Windows](https://github.com/robertmartic/polywriter/releases/latest).
 Choose the `-setup.exe` asset for a conventional installation, or the `-win-x64.zip` portable package.
+Version 0.3.1 bridges older GitHub-based installations to the signed PolyStudio
+update channel. Later in-app updates use updates.polystudio.tools and verified
+packages from downloads.polystudio.tools. See docs/UPDATES.md.
 
-Version 0.3.0. A local document workspace for 64-bit Windows 10 (2004+) and Windows 11.
+Version 0.3.1. A local document workspace for 64-bit Windows 10 (2004+) and Windows 11.
 Free to use. English interface, light and dark themes, no account or subscription.
 
 Create and format everyday documents, find/replace text, preview pages and print.

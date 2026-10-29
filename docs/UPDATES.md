@@ -13,8 +13,12 @@ replaces the application. A maintenance failure rolls back to the previous folde
 Backups are retained; About > Updates > Manage update storage supports safe cleanup.
 After a successful restart, the offline changelog is shown. Failed updates are reported.
 
-The configured public distribution channel is robertmartic/polywriter on GitHub.
-Until its first release has been published, GitHub may report no available release.
+From 0.3.1 the application checks https://updates.polystudio.tools/polywriter/stable.json.
+The channel is digitally signed with PolyStudio update keys and identifies PolyWriter.
+Packages come only from https://downloads.polystudio.tools/polywriter/ with verified sizes and hashes.
+Automatic checks run at most once every 24–30 hours, including after a failed check;
+manual checks remain immediately available. Redirects and untrusted origins are rejected.
+Version 0.3.1 is also available on GitHub as a one-time bridge for older installations.
 No private repository credentials are used by the application. Downloads contain
 binary packages, customer documentation and notices, never source or debug symbols.
 
