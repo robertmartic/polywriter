@@ -1,19 +1,27 @@
 # PolyWriter
 
-[Download PolyWriter for Windows](https://github.com/robertmartic/polywriter/releases/latest).
+[Download PolyWriter for Windows](https://downloads.polystudio.tools/polywriter/0.4.0/PolyWriter-0.4.0-setup.exe) or [download the portable ZIP](https://downloads.polystudio.tools/polywriter/0.4.0/PolyWriter-0.4.0-win-x64.zip).
 Choose the `-setup.exe` asset for a conventional installation, or the `-win-x64.zip` portable package.
 Version 0.3.1 bridges older GitHub-based installations to the signed PolyStudio
 update channel. Later in-app updates use updates.polystudio.tools and verified
 packages from downloads.polystudio.tools. See docs/UPDATES.md.
 
-Version 0.3.1. A local document workspace for 64-bit Windows 10 (2004+) and Windows 11.
+Version 0.4.0. A local document workspace for 64-bit Windows 10 (2004+) and Windows 11.
 Free to use. English interface, light and dark themes, no account or subscription.
 
 Create and format everyday documents, find/replace text, preview pages and print.
-Documents use the versioned .polyw format. TXT and basic RTF can be imported;
-imports are copies and their originals are preserved. Export TXT or RTF from View.
-Paste inserts plain text. DOCX is not supported in this version. Editing is continuous;
-Print preview is paginated. Choose View > Write to leave preview.
+Documents are saved as .polyw. Open basic DOCX, TXT and RTF files as editable
+copies. Use View > Export DOCX to create a new Word file. Export requires a new
+filename and leaves the working document open. Export TXT and RTF from View as well.
+
+DOCX exchange covers basic fonts and emphasis, paragraph alignment and spacing,
+single-level lists, and A4 or Letter with equal margins. Unsupported content such
+as tables, images, headers, comments or tracked changes may be omitted or
+simplified. Review any import warning before continuing. Keep the Word original
+for complex documents. Page layout may differ between applications.
+
+Paste inserts plain text. Editing is continuous; print preview is paginated.
+Choose View > Write to leave preview.
 
 The compact toolbar uses vector icons with descriptive tooltips. Home groups
 Clipboard, Font and Paragraph tools; active formatting is highlighted. When a

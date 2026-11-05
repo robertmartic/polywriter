@@ -1,5 +1,10 @@
 # PolyWriter changelog
 
+## 0.4.0
+- Open basic Word documents as editable copies, with warnings when unsupported content or formatting may be omitted.
+- Export a new DOCX from View, with basic fonts, formatting, paragraph alignment and spacing, simple lists, and supported paper settings.
+- Keep .polyw as the default Save format and preserve the original Word file.
+
 ## 0.3.1
 - Updates now use PolyStudio's signed update channel and verified downloads, with the same in-app download, retry and rollback experience.
 - Automatic checks run at most once every 24–30 hours. Manual checks remain available immediately.
