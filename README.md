@@ -1,27 +1,38 @@
 # PolyWriter
 
-[Download PolyWriter for Windows](https://downloads.polystudio.tools/polywriter/0.4.0/PolyWriter-0.4.0-setup.exe) or [download the portable ZIP](https://downloads.polystudio.tools/polywriter/0.4.0/PolyWriter-0.4.0-win-x64.zip).
+[Download PolyWriter 0.5.0 for Windows](https://downloads.polystudio.tools/polywriter/0.5.0/PolyWriter-0.5.0-setup.exe) or [get the portable ZIP](https://downloads.polystudio.tools/polywriter/0.5.0/PolyWriter-0.5.0-win-x64.zip).
 Choose the `-setup.exe` asset for a conventional installation, or the `-win-x64.zip` portable package.
 Version 0.3.1 bridges older GitHub-based installations to the signed PolyStudio
 update channel. Later in-app updates use updates.polystudio.tools and verified
 packages from downloads.polystudio.tools. See docs/UPDATES.md.
 
-Version 0.4.0. A local document workspace for 64-bit Windows 10 (2004+) and Windows 11.
+Version 0.5.0. A local document workspace for 64-bit Windows 10 (2004+) and Windows 11.
 Free to use. English interface, light and dark themes, no account or subscription.
 
 Create and format everyday documents, find/replace text, preview pages and print.
-Documents are saved as .polyw. Open basic DOCX, TXT and RTF files as editable
-copies. Use View > Export DOCX to create a new Word file. Export requires a new
-filename and leaves the working document open. Export TXT and RTF from View as well.
+New documents default to DOCX. Existing .polyw files keep their format on Save.
+When PolyWriter can reproduce every part of a DOCX, it can edit and save that
+file directly. Other Word files open as editable copies. Import warnings list
+recognised content that may be simplified or omitted. Save a copy under a new
+name to preserve the Word original. Save As also offers the PolyWriter format.
+Export DOCX, TXT or basic RTF from View.
 
-DOCX exchange covers basic fonts and emphasis, paragraph alignment and spacing,
-single-level lists, and A4 or Letter with equal margins. Unsupported content such
-as tables, images, headers, comments or tracked changes may be omitted or
-simplified. Review any import warning before continuing. Keep the Word original
-for complex documents. Page layout may differ between applications.
+Use Insert to add PNG or JPEG images, resize an image while keeping its aspect
+ratio, add or edit HTTP/HTTPS links, and work with rectangular tables. Edit table
+changes the selected cell's column width, rows, columns, or table borders.
+Table cells support ordinary paragraphs. DOCX supports single-level lists,
+A4 or Letter with equal margins, and one repeating plain-text header and footer.
+Merged cells, floating objects, comments and tracked changes are outside this
+edition's editing support. Layout can differ between word processors.
+DOCX round-trip testing for 0.5.0 used LibreOffice. Microsoft Word was unavailable for hands-on testing.
 
-Paste inserts plain text. Editing is continuous; print preview is paginated.
-Choose View > Write to leave preview.
+Use Layout for manual page breaks, headers, footers and page numbers. Editing
+is continuous. Print preview and print share the same paginator. Use View > Write
+to return to editing. Paste inserts plain text.
+
+Use View > Spelling to select a proofing language. Suggestions depend on the
+dictionaries Windows makes available to WPF. F6 moves focus between the editor,
+toolbar and document tabs.
 
 The compact toolbar uses vector icons with descriptive tooltips. Home groups
 Clipboard, Font and Paragraph tools; active formatting is highlighted. When a
@@ -67,6 +78,7 @@ Each dirty tab has its own encrypted recovery checkpoint, including inactive tab
 After an interrupted session, accepted recovery copies open in separate unsaved
 tabs. Save them explicitly. This is crash recovery, not automatic reopening of a
 cleanly closed session. Print, preview, Find/Replace and export apply to the active
-document; switching tabs returns to writing. The .polyw format remains version 1.
+document; switching tabs returns to writing. Earlier .polyw files remain readable.
+New features use .polyw format 2 when saved in the native format.
 
 See docs/INSTALLATION.md and docs/UPDATES.md. Licenses are included in the package.

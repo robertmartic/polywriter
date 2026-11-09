@@ -1,5 +1,11 @@
 # PolyWriter changelog
 
+## 0.5.0
+- Save new documents as DOCX by default. Keep saving existing PolyWriter documents in their original format and open unverified Word files as copies.
+- Insert and resize PNG or JPEG images, edit web links, and insert and edit simple tables.
+- Add page breaks, repeating headers and footers, and page numbers. Preview and printing use the same pagination.
+- Choose a proofing language and press F6 to move between the toolbar, tabs, and editor.
+
 ## 0.4.0
 - Open basic Word documents as editable copies, with warnings when unsupported content or formatting may be omitted.
 - Export a new DOCX from View, with basic fonts, formatting, paragraph alignment and spacing, simple lists, and supported paper settings.
