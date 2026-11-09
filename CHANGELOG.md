@@ -1,5 +1,9 @@
 # PolyWriter changelog
 
+## 0.5.1
+- Fix a crash when applying a new image width or alternative text. Undo and Redo preserve the image and its settings.
+- Use vector icons for Insert, Layout, View and other toolbar actions. Tooltips and accessible names describe each action.
+
 ## 0.5.0
 - Save new documents as DOCX by default. Keep saving existing PolyWriter documents in their original format and open unverified Word files as copies.
 - Insert and resize PNG or JPEG images, edit web links, and insert and edit simple tables.

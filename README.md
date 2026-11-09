@@ -1,12 +1,12 @@
 # PolyWriter
 
-[Download PolyWriter 0.5.0 for Windows](https://downloads.polystudio.tools/polywriter/0.5.0/PolyWriter-0.5.0-setup.exe) or [get the portable ZIP](https://downloads.polystudio.tools/polywriter/0.5.0/PolyWriter-0.5.0-win-x64.zip).
+[Download PolyWriter 0.5.1 for Windows](https://downloads.polystudio.tools/polywriter/0.5.1/PolyWriter-0.5.1-setup.exe) or [get the portable ZIP](https://downloads.polystudio.tools/polywriter/0.5.1/PolyWriter-0.5.1-win-x64.zip).
 Choose the `-setup.exe` asset for a conventional installation, or the `-win-x64.zip` portable package.
 Version 0.3.1 bridges older GitHub-based installations to the signed PolyStudio
 update channel. Later in-app updates use updates.polystudio.tools and verified
 packages from downloads.polystudio.tools. See docs/UPDATES.md.
 
-Version 0.5.0. A local document workspace for 64-bit Windows 10 (2004+) and Windows 11.
+Version 0.5.1. A local document workspace for 64-bit Windows 10 (2004+) and Windows 11.
 Free to use. English interface, light and dark themes, no account or subscription.
 
 Create and format everyday documents, find/replace text, preview pages and print.
@@ -24,7 +24,7 @@ Table cells support ordinary paragraphs. DOCX supports single-level lists,
 A4 or Letter with equal margins, and one repeating plain-text header and footer.
 Merged cells, floating objects, comments and tracked changes are outside this
 edition's editing support. Layout can differ between word processors.
-DOCX round-trip testing for 0.5.0 used LibreOffice. Microsoft Word was unavailable for hands-on testing.
+DOCX round-trip testing for 0.5 used LibreOffice. Microsoft Word was unavailable for hands-on testing.
 
 Use Layout for manual page breaks, headers, footers and page numbers. Editing
 is continuous. Print preview and print share the same paginator. Use View > Write
